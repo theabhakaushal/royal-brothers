@@ -1,0 +1,191 @@
+body{
+		margin: 0;
+		padding: 0;
+		overflow-x: hidden;
+		
+	}
+
+
+
+@media screen and (min-width: 1061px) and (max-width: 1350px){
+
+.statusImg {
+	width: 230px;
+}
+
+
+
+}
+
+
+@media screen and (min-width: 779px) and (max-width: 1061px){
+
+.statusImg {
+	width: 350px;
+}
+
+.specialityBlock{
+	width: 300px;
+}
+
+}
+
+
+
+@media screen and (max-width: 779px){
+
+
+.foot
+{
+	background-color: #363636;
+	color:white;
+	padding: 5px;
+}
+
+}
+
+
+/*css*/
+
+.navColor{
+		
+		color: white;
+  
+  }
+.firstDiv{
+		
+		background-image: url("BgImage.jpg");
+		background-repeat: no-repeat;
+	 	background-size: 100% auto;
+	 	background-size: cover;
+	 	width: 100%;
+	 	height:400px;
+	 	padding-top: 20px;
+
+	}
+
+.flex-container {
+  		
+  		display: flex;
+  		flex-wrap: wrap;
+		justify-content: center;
+}
+
+.paypalLeft{
+		
+		position: relative;
+ 	    text-align: center;
+  
+}
+
+.centered {
+  		position: absolute;
+  		top: 50%;
+  		left: 60%;
+  		transform: translate(-50%, -50%);
+}
+
+button{
+		
+		background-color: #FDDD4E;
+		border-radius: 10px;
+  		padding: 10px auto;
+ 	 	width: 180px;
+
+}
+.statusDiv{
+
+		width: 95%;
+ 		margin-left: auto;
+ 		margin-right: auto;
+ 		text-align: center;
+		 padding:50px 0px; 
+
+}
+.statusImg{
+		width: 300px;
+		margin: 10px;
+}
+
+.specialityDiv{
+	padding:20px;
+
+}
+
+.specialityBlock{
+		margin: 10px;
+		width: 350px;
+}
+.numberDiv{
+		font-size: 55px;
+		color: #FEDC4E;
+		font-weight: bold;
+		width: 100px;
+		float: left;
+
+}
+.headerDiv{
+		font-size: 20px;
+		font-weight: bold;
+		width: 300px
+
+}
+.paragraphDiv{
+
+	font-size: 18px;
+	color: grey;
+}
+.heading{
+		
+		 font-size: 30px;
+		 font-weight: bold;
+		 text-align: center;
+	}
+.bikesOuterDiv{
+		
+		background-color: #EEEEEE;
+		height: auto;
+		padding: 10px;
+	}
+.bikesInnerDiv{
+
+  		background-color: white;
+ 		width: 84%;
+ 		margin-left: auto;
+ 		margin-right: auto;
+ 		text-align: center;
+
+
+	}
+
+.bikesInnerDiv > div {
+		
+		border-bottom: 5px grey solid;
+		padding: 15px 15px 0px 15px;
+		font-size: 20px;
+		width:350px;
+ 		text-align: center; 
+}
+
+.articleDiv{
+
+	padding: 10px;
+	margin:0px; 
+}
+
+.articlePhoto{
+	
+	margin: 1%;
+	width: 250px;
+	height: 200px;
+
+}
+
+.foot{
+
+	background-color: #363636;
+	color: white;
+	padding: 30px;
+}
+
+
